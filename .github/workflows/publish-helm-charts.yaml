@@ -6,7 +6,6 @@ on:
       - master
     tags:
       - "v*"
-  workflow_dispatch:
 
 env:
   CHART_PATH: charts/kubeflow-trainer
