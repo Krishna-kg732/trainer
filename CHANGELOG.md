@@ -1,31 +1,5 @@
 # Changelog
 
-## [v99.2.0](https://github.com/kubeflow/trainer/releases/tag/v99.2.0) (2026-02-26)
-
-This is Kubeflow Trainer v99.2.0 release.
-
-```bash
-kubectl apply --server-side -k "https://github.com/kubeflow/trainer.git/manifests/overlays/manager?ref=v99.2.0"
-kubectl apply --server-side -k "https://github.com/kubeflow/trainer.git/manifests/overlays/runtimes?ref=v99.2.0"
-```
-
-You can now install controller manager with Helm charts 🚀
-
-```bash
-helm install kubeflow-trainer oci://ghcr.io/kubeflow/charts/kubeflow-trainer --version 99.2.0
-```
-
-For more information, please see [the Kubeflow Trainer docs](https://www.kubeflow.org/docs/components/trainer/overview/)
-### 🚀 Features
-
-- feat(ci): Add release automation with OIDC PyPI publishing (@krishna-kg732)
-
-### ⚙️ Miscellaneous Tasks
-
-- chore: remove pypi publish from release.yaml (@krishna-kg732)
-
-
-
 # [v2.1.0](https://github.com/kubeflow/trainer/tree/v2.1.0) (2025-11-07)
 
 This is Kubeflow Trainer v2.1.0 release.
